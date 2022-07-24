@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "striders-grace",
+  "version": "${version}",
+
+  "name": "Strider's Grace",
+  "description": "Similar to dolphin's grace, this enchantment allows the user to move fast in lava",
+  "authors": [
+    "Accieo"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Accieo",
+    "sources": "https://github.com/Accieo"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/stridersgrace/icon128.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "accieo.striders.grace.StridersGrace"
+    ]
+  },
+  "mixins": [
+    "stridersgrace.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
